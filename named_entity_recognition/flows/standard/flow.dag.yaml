@@ -23,7 +23,7 @@ nodes:
     text: ${inputs.text}
     entity_type: ${inputs.entity_type}
   provider: AzureOpenAI
-  connection: aoai
+  connection: ai-vtesthub580814829507
   api: chat
   module: promptflow.tools.aoai
 - name: cleansing
